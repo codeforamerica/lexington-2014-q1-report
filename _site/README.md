@@ -1,17 +1,17 @@
-Code for America Annual Report, 2013.
+Code for America Lexington, 2014 Q1 Report
 
-View it live at [2013.codeforamerica.org](http://2013.codeforamerica.org).
+View it live at [http://codeforamerica.github.io/lexington-2014-q1-report](http://codeforamerica.github.io/lexington-2014-q1-report).
 
 Install
 -------
 
 This site is build using jekyll.
 
-    sudo gem install jekyll
-    sudo gem install rdiscount
+    gem install jekyll
+    gem install rdiscount
 
 Run
 ---
 
-    jekyll --server --auto
+    jekyll serve --watch
 
