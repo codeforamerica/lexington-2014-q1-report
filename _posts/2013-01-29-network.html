@@ -7,7 +7,7 @@ bgcolor: c4c4c4
 published: true
 section: network
 ---
-<div class="map">
+<div class="map" style="display:none">
   <div class="row-fluid">
     <div id="mapcontainer">
       <div id="map"></div>
@@ -43,7 +43,7 @@ section: network
       <div class="mapInsetContainer span12">
         <div id="mapInset"></div>
       </div>
-    </div> 
+    </div>
       <svg id='marker' xmlns="http://www.w3.org/2000/svg" version="1.1">
         <defs>
           <filter id="f1" x="-10%" y="-10%" height="200%" width="200%">
@@ -55,22 +55,22 @@ section: network
             </feMerge>
           </filter>
         </defs>
-        <circle id="markerCircle" cx="25" cy="25" r="5" style="stroke-width: 1; stroke: #e5e5e5;" />  
-        <image src="http://a.tiles.mapbox.com/v3/marker/pin-m+e87d2b.png" width="96" height="96" /> 
-      </svg> 
+        <circle id="markerCircle" cx="25" cy="25" r="5" style="stroke-width: 1; stroke: #e5e5e5;" />
+        <image src="http://a.tiles.mapbox.com/v3/marker/pin-m+e87d2b.png" width="96" height="96" />
+      </svg>
       <svg id='markerHighlight' xmlns="http://www.w3.org/2000/svg" version="1.1">
         <circle id="markerHighligtCircle" cx="25" cy="25" r="5" style="stroke-width: 1; stroke: #e87d2b;fill:#eB7d2b;" />
-        <image src="http://a.tiles.mapbox.com/v3/marker/pin-m+e87d2b.png" width="96" height="96" />  
-      </svg> 
+        <image src="http://a.tiles.mapbox.com/v3/marker/pin-m+e87d2b.png" width="96" height="96" />
+      </svg>
       <svg id='markerInset' xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <circle id="markerInsetCircle" cx="25" cy="25" r="2" style="fill:#eB7d2b;" />  
-        <image src="http://a.tiles.mapbox.com/v3/marker/pin-m+e87d2b.png" width="96" height="96" /> 
+        <circle id="markerInsetCircle" cx="25" cy="25" r="2" style="fill:#eB7d2b;" />
+        <image src="http://a.tiles.mapbox.com/v3/marker/pin-m+e87d2b.png" width="96" height="96" />
       </svg>
     </div>
     <div class="mapscroll"></div>
   </div>
 
-  
+
 </div>
 
 <!-- <div class="scrollout mapscroll"></div>
