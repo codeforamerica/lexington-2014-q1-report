@@ -3552,10 +3552,6 @@ img.progicons {
   text-align: left;
 }
 
-dl dd {
-  margin-bottom: 1em;
-}
-
 /* line 893, ../sass/base.scss */
 .market .stats h4 {
   margin-top: 20px;
@@ -3580,6 +3576,14 @@ dl dd {
   min-height: auto;
 }
 
+dl dd {
+  margin-bottom: 1em;
+}
+
 dl dd:last {
   margin-bottom: 1em;
+}
+
+.getinvolved li {
+  font-size: 15px;
 }
