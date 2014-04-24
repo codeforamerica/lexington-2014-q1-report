@@ -3027,7 +3027,7 @@ input[type="text"] {
   padding-left: 400px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-                               /* Firefox 
+                               /* Firefox
 -webkit-box-sizing:border-box; /* Safari */
 }
 
@@ -3552,6 +3552,10 @@ img.progicons {
   text-align: left;
 }
 
+dl dd {
+  margin-bottom: 1em;
+}
+
 /* line 893, ../sass/base.scss */
 .market .stats h4 {
   margin-top: 20px;
@@ -3574,4 +3578,8 @@ img.progicons {
 /* line 909, ../sass/base.scss */
 .sharebutton iframe {
   min-height: auto;
+}
+
+dl dd:last {
+  margin-bottom: 1em;
 }
