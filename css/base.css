@@ -693,10 +693,10 @@ a.appspop:hover {
 
 /* line 102, ../sass/_backgrounds.scss */
 .pagebg.imagegood_governance {
-  background: url("../img/codeacrossoutside.jpg") no-repeat;
+  background: url("../img/codeacrossmaps.jpg") no-repeat;
   background-size: cover;
   background-position: right;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/codeacrossoutside.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/codeacrossmaps.jpg', sizingMethod='scale')";
 }
 @media screen and (max-width: 1024px) {
   /* line 102, ../sass/_backgrounds.scss */
@@ -2204,6 +2204,7 @@ a.startupspop:hover {
 .getinvolved {
   background: rgba(255, 255, 255, 0.95);
   background: #fff;
+  opacity: 0.9;
   color: #000;
   padding: 70px 80px;
   text-shadow: none;
