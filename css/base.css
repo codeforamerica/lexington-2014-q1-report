@@ -637,10 +637,10 @@ a.appspop:hover {
 
 /* line 65, ../sass/_backgrounds.scss */
 .pagebg.imagethanksback {
-  background: url("../img/thanksback.jpg") no-repeat;
+  background: url("../img/Summary_Background.jpg") no-repeat;
   background-size: cover;
   background-position: right;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/thanksback.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/Summary_Background.jpg', sizingMethod='scale')";
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* line 65, ../sass/_backgrounds.scss */
